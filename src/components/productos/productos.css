@@ -1,0 +1,62 @@
+.container__products_title {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.container__products_title h2 {
+  color: var(--color-white);
+  background-color: var(--color-bg);
+  padding: 15px 25px;
+  margin-top: 25px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px hsl(1, 50%, 76%);
+}
+/*=== SECTION AREPAS ===*/
+.arepas {
+  display: grid;
+  grid-template-columns: repeat(5, 0.2fr);
+  width: 70%;
+  margin: auto 15%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  row-gap: 40px;
+  column-gap: 0;
+  margin-top: 50px;
+}
+
+.arepas img {
+  width: 60%;
+  height: 100%;
+  transition: var(--transition);
+}
+
+.arepas img:hover {
+  transition: var(--transition);
+  transform: scale(1.6);
+}
+
+/*=== SECTION EMPANADAS ===*/
+
+
+
+/* ================= MEDIA QUERIES (MEDIUM DEVICES - TABLETS) ==================== */
+@media screen and (max-width: 1024px) {
+  .arepas {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* ================= SMAILL QUERIES (SMALL DEVICES - PHONES) ==================== */
+@media screen and (max-width: 600px) {
+  .arepas {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    margin: 0;
+  }
+}

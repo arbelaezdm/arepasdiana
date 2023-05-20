@@ -1,0 +1,89 @@
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-bg);
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 7rem;
+}
+
+.logo {
+  margin-left: 1%;
+  width: 9%;
+  height: 9%;
+}
+
+footer a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--color-hover);
+}
+
+.permalinks__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.permalinks__footer li a {
+  font-size: rem;
+}
+
+.social__icons {
+  font-size: 3rem;
+}
+
+.address__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(216, 126, 16);
+  padding-bottom: 1rem;
+}
+
+.address__container a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.address__container a:hover {
+  color: var(--color-hover);
+  transition: var(--transition);
+}
+
+.map__icon {
+  font-size: 2rem;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(216, 126, 16);
+  color: var(--color-white);
+  padding-bottom: 1rem;
+}
+
+/* ================= MEDIA QUERIES (SMAILL DEVICES - PHONES) ==================== */
+@media screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .footer__socials {
+    margin-bottom: 2.6rem;
+  }
+
+  .address__container{
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.header__logo {
+  width: 15%;
+  height: 15%;
+  margin-right: 40px;
+}
+
+/* ================= MEDIA QUERIES (MEDIUM DEVICES - TABLETS) ==================== */
+@media screen and (max-width: 1080px) {
+
+  header {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    gap: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .header__logo {
+    width: 40%;
+    height: 40%;
+    margin-right: 0
+  }
+}
+
+/* ================= MEDIA QUERIES (SMAILL DEVICES - PHONES) ==================== */
+@media screen and (max-width: 600px) {
+  header {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .header__logo {
+    width: 45%;
+    height: 45%;
+    margin-right: 0
+  }
+}

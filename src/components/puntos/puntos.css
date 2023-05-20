@@ -1,0 +1,48 @@
+.container__sales_point {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+  }
+  
+  .container__sales_point h2 {
+    color: var(--color-white);
+    background-color: var(--color-bg);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px hsl(1, 50%, 76%);
+  }
+
+  .container__point_images h3 {
+    color: var(--color-hover);
+    margin-top: 10px;
+  }
+
+  .container__point_images {
+    display: grid;
+    grid-template-columns: repeat(3);
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .container__point_images img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px hsl(1, 50%, 76%);
+  }
+
+
+  .container__point_images img:hover {
+    transition: all 400ms ease;
+    transform: scale(1.1);
+  }
+
+  .container__point_images a {
+    text-decoration: none;
+    color: var(--color-bg);
+    margin-bottom: 15px;
+  }
+
+  .container__point_images a:hover {
+    color: var(--color-hover)
+  }

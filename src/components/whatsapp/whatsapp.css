@@ -1,0 +1,126 @@
+.whatsapp__icon {
+  width: 7%;
+  display: block;
+  padding: 0.4rem 1.6rem;
+  z-index: 2;
+  position: fixed;
+  left: 1.4%;
+  /* transform: translatex(-50%); */
+  top: 20%;
+}
+
+.instagram__icon {
+  width: 7%;
+  display: block;
+  padding: 0.4rem 1.6rem;
+  z-index: 2;
+  position: fixed;
+  left: 1.4%;
+  /* transform: translatex(-50%); */
+  top: 30%;
+}
+
+.facebook__icon {
+  width: 7%;
+  display: block;
+  padding: 0.4rem 1.6rem;
+  z-index: 2;
+  position: fixed;
+  left: 1.4%;
+  /* transform: translatex(-50%); */
+  top: 40%;
+}
+
+.logo_4 {
+  width: 10%;
+  display: block;
+  padding: 0.4rem 1.6rem;
+  z-index: 2;
+  position: fixed;
+  left: 0%;
+  /* transform: translatex(-50%); */
+  top: 50%;
+}
+
+.whatsapp__icon:hover,
+.instagram__icon:hover,
+.facebook__icon:hover {
+  transition: var(--transition);
+  transform: scale(1.3);
+}
+
+.logo_4:hover {
+  transition: var(--transition);
+  transform: scale(1.3);
+}
+
+.banner_2 {
+  width: 15%;
+  display: block;
+  padding: 0.4rem 0.8rem;
+  z-index: 2;
+  position: fixed;
+  right: 0.2%;
+  /* transform: translatex(-50%); */
+  top: 20%;
+}
+
+.banner_1 {
+  width: 15%;
+  display: block;
+  padding: 0.4rem 0.8rem;
+  z-index: 2;
+  position: fixed;
+  right: 0.2%;
+  /* transform: translatex(-50%); */
+  top: 45%;
+}
+
+.logo_maiz {
+  width: 7%;
+  display: block;
+  padding: 0.4rem 0.8rem;
+  z-index: 2;
+  position: fixed;
+  left: 1.5%;
+  /* transform: translatex(-50%); */
+  top: 65%;
+}
+
+.banner_1:hover,
+.banner_2:hover {
+  transition: var(--transition);
+  transform: scale(1.2);
+  right: 1%;
+}
+
+/* ================= MEDIA QUERIES (MEDIUM DEVICES - TABLETS) ==================== */
+@media screen and (max-width: 1080px) {
+  .whatsapp__icon,
+  .instagram__icon,
+  .facebook__icon,
+  .banner_1,
+  .banner_2,
+  .logo_maiz {
+    width: 10%;
+  }
+}
+
+/* ================= MEDIA QUERIES (SMAILL DEVICES - PHONES) ==================== */
+@media screen and (max-width: 600px) {
+  .whatsapp__icon,
+  .instagram__icon,
+  .facebook__icon,
+  .banner_1,
+  .banner_2,
+  .logo_maiz {
+    width: 2%;
+    display: block;
+    padding: 0.4rem 1.6rem;
+    z-index: 2;
+    position: fixed;
+    left: 0%;
+    /* transform: translatex(-50%); */
+    top: 20%;
+  }
+}
