@@ -47,15 +47,16 @@ const Footer = () => {
         </ul>
       </footer>
       <div className="address__container">
-        <a href="https://www.google.com/maps/place/Arepas+Diana/@26.1875747,-80.1998014,17z/data=!3m1!4b1!4m6!3m5!1s0x47d892766581fb37:0x251d5b046791e8c5!8m2!3d26.1875699!4d-80.1972265!16s%2Fg%2F11rtmn2t6p"
-        target="__blank"
+        <a
+          href="https://www.google.com/maps/place/Arepas+Diana/@26.1875747,-80.1998014,17z/data=!3m1!4b1!4m6!3m5!1s0x47d892766581fb37:0x251d5b046791e8c5!8m2!3d26.1875699!4d-80.1972265!16s%2Fg%2F11rtmn2t6p"
+          target="__blank"
         >
           <FaMapMarkerAlt className="map__icon" /> 3601 W Comercial Blvd Suite
           27 / North Lauderdale 33309
         </a>
       </div>
       <div className="footer__copyright">
-        <small>&copy; Arepas Diana All rights reserved</small>
+        <small> 2024 &copy; Arepas Diana All rights reserved</small>
       </div>
     </>
   );
