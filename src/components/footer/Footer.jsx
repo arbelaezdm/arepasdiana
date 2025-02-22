@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "../footer/footer.css";
 import logo from "../../assets/images/logos/logo_arepas_diana_2.png";
 import { BsWhatsapp } from "react-icons/bs";
@@ -56,7 +56,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer__copyright">
-        <small> 2024 &copy; Arepas Diana All rights reserved</small>
+        <small> 2025 &copy; Arepas Diana All Rights Reserved</small>
       </div>
     </>
   );

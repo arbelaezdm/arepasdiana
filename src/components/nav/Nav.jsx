@@ -1,14 +1,14 @@
-import React from 'react'
-import './nav.css'
-import {IoIosHome} from 'react-icons/io'
-import {FaUserAlt} from 'react-icons/fa'
-import {BsJournalBookmarkFill} from 'react-icons/bs'
-import {RiCustomerServiceFill} from 'react-icons/ri'
-import {BiMessageRoundedDots} from 'react-icons/bi'
-import { useState } from 'react'
+// import React from 'react'
+import "./nav.css";
+import { IoIosHome } from "react-icons/io";
+import { FaUserAlt } from "react-icons/fa";
+import { BsJournalBookmarkFill } from "react-icons/bs";
+import { RiCustomerServiceFill } from "react-icons/ri";
+import { BiMessageRoundedDots } from "react-icons/bi";
+import { useState } from "react";
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+  const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
       <a
@@ -27,30 +27,32 @@ const Nav = () => {
         <FaUserAlt />
       </a>
 
-      <a href="#experience"
-      onClick={() => setActiveNav("#experience")}
-      className={activeNav === "#experience" ? "active" : ""}
+      <a
+        href="#experience"
+        onClick={() => setActiveNav("#experience")}
+        className={activeNav === "#experience" ? "active" : ""}
       >
         <BsJournalBookmarkFill />
       </a>
 
-      <a href="#services"
-      onClick={() => setActiveNav("#services")}
-      className={activeNav === "#services" ? "active" : ""}
+      <a
+        href="#services"
+        onClick={() => setActiveNav("#services")}
+        className={activeNav === "#services" ? "active" : ""}
       >
         <RiCustomerServiceFill />
       </a>
 
-      <a href="https://api.whatsapp.com/send?phone=17544227427"
-      target='__blank'
-      onClick={() => setActiveNav("#contact")}
-      className={activeNav === "#contact" ? "active" : ""}
+      <a
+        href="https://api.whatsapp.com/send?phone=17544227427"
+        target="__blank"
+        onClick={() => setActiveNav("#contact")}
+        className={activeNav === "#contact" ? "active" : ""}
       >
         <BiMessageRoundedDots />
       </a>
-
     </nav>
   );
-}
+};
 
-export default Nav
+export default Nav;

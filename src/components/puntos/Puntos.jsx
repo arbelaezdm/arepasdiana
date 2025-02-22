@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "../puntos/puntos.css";
 import punto_1 from "../../assets/images/puntos/punto_cargo_zone.png";
 import punto_2 from "../../assets/images/puntos/punto_latinoamerica_express.png";
@@ -17,18 +17,25 @@ const Puntos = () => {
         <a href="https://goo.gl/maps/wGAJqEsRqYUnEiqc6" target="__blank">
           <FaMapMarkerAlt /> 22749 FL-7 D, Boca Raton, FL 33428
         </a>
-        <a href="https://goo.gl/maps/wGAJqEsRqYUnEiqc6" target="__blank"><img src={punto_1} alt="punto_1" /></a>
+        <a href="https://goo.gl/maps/wGAJqEsRqYUnEiqc6" target="__blank">
+          <img src={punto_1} alt="punto_1" />
+        </a>
         {/* Point 2 */}
         <h3>Latinoamerica Express</h3>
         <a href="https://goo.gl/maps/13ZyxXwLnwToJXAs6" target="__blank">
           <FaMapMarkerAlt /> 5636 Johnson St. Hollywood FL 33321
         </a>
-        <a href="https://goo.gl/maps/13ZyxXwLnwToJXAs6" target="__blank"><img src={punto_2} alt="punto_2" /></a>
-        {/* Point 3 */}'<h3>Servientrega Boca Raton</h3>
+        <a href="https://goo.gl/maps/13ZyxXwLnwToJXAs6" target="__blank">
+          <img src={punto_2} alt="punto_2" />
+        </a>
+        {/* Point 3 */}
+        <h3>Servientrega Boca Raton</h3>
         <a href="https://goo.gl/maps/HWTDsZRg5EYUZQ6dA" target="__blank">
           <FaMapMarkerAlt /> 22749 FL-7 D, Boca Raton, FL 33428
         </a>
-        <a href="https://goo.gl/maps/HWTDsZRg5EYUZQ6dA" target="__blank"><img src={punto_3} alt="punto_3" /></a>
+        <a href="https://goo.gl/maps/HWTDsZRg5EYUZQ6dA" target="__blank">
+          <img src={punto_3} alt="punto_3" />
+        </a>
       </div>
     </>
   );

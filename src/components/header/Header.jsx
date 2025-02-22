@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "../header/header.css";
 import logo from "../../assets/images/logos/logo_arepas_diana.png";
 

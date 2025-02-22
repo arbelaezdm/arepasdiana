@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "../whatsapp/whatsapp.css";
 import logo_4 from "../../assets/images/logos/logo_arepas_diana_4.png";
 import logo_maiz from "../../assets/images/logos/logo_100_maiz.png";
